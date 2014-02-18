@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    	<!-- Include Action Bar -->
+    	<include layout="@layout/actionbar_layout"/>
+    	
+    	<com.unisul.activities.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+	<!--  Eu quero Button -->
+	
+    <Button
+        android:id="@+id/btn_acessar_prancha"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_eu_quero"
+        android:text="Acessar Prancha" />
+    
+	<!--  Eu estou Button -->
+    <Button
+        android:id="@+id/btn_opcoes"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/option_folder"
+        android:text="Configurar Prancha" />
+    
+</com.unisul.activities.DashboardLayout>
+		<!--  Include Footer -->
+		<include layout="@layout/footer_layout"/>
+    	    
+</LinearLayout>

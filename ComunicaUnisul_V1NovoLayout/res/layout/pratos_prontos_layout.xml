@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pratos_prontos_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    	<!-- Include Action Bar -->
+    	<include layout="@layout/actionbar_layout"/>
+    	
+    	<com.unisul.activities.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+	
+    <Button
+        android:id="@+id/btn_arroz_feijao_bife"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/arrozfeijaosaladabife"
+        android:text="Prato 1" />
+    
+    <Button
+        android:id="@+id/btn_macarrao_almondega"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/macarrao_almondega"
+        android:text="Prato 2" />
+    
+     <Button
+        android:id="@+id/btn_arroz_feijao_frango"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/arroz_frango_batata"
+        android:text="Prato 3" />
+    
+    <Button
+        android:id="@+id/btn_sopa_frango"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/sopa_frango"
+        android:text="Sopa de Frango" />
+	
+   
+
+    <Button
+        android:id="@+id/btn_sanduiche"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/sanduiche"
+        android:text="Sanduiche" />
+    
+    <Button
+        android:id="@+id/btn_avancar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/avancar"
+        android:text="Avançar" />
+
+
+</com.unisul.activities.DashboardLayout>
+		
+		<!--  Include Footer -->
+		<include layout="@layout/footer_layout"/>
+    	    
+</LinearLayout>

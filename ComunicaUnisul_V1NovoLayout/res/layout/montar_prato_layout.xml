@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/montar_prato_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_layout" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_arroz"
+                style="@style/PranchaButton"
+                android:background="@drawable/arroz_default"
+                android:text="@string/arroz" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_feijao"
+                style="@style/PranchaButton"
+                android:background="@drawable/feijao_default"
+                android:text="@string/feijao" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_bife"
+                style="@style/PranchaButton"
+                android:background="@drawable/bife_default"
+                android:text="@string/bife" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_coxa"
+                style="@style/PranchaButton"
+                android:background="@drawable/coxa_default"
+                android:text="@string/carne_frango" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_macarrao"
+                style="@style/PranchaButton"
+                android:background="@drawable/macarrao_default"
+                android:text="@string/macarrao" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+        <Button
+        android:id="@+id/btn_avancar"
+                style="@style/PranchaButton"
+                android:background="@drawable/avancar"
+                android:text="@string/avancar" />
+       
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <!-- Include Footer -->
+
+    <include layout="@layout/footer_layout" />
+
+</LinearLayout>

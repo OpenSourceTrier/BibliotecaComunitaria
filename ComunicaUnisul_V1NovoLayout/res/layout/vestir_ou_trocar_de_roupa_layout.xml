@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vestir_ou_trocar_de_roupa_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    	<!-- Include Action Bar -->
+    	<include layout="@layout/actionbar_layout"/>
+    	
+    	<com.unisul.activities.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+	
+    <Button
+        android:id="@+id/btn_calca"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/calca"
+        android:text="Calça" />
+    
+    <Button
+        android:id="@+id/btn_camiseta"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/camiseta"
+        android:text="Camiseta" />
+    
+    <Button
+        android:id="@+id/btn_casaco"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/casaco"
+        android:text="Casaco" />
+	
+    <Button
+        android:id="@+id/btn_cueca"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/cueca"
+        android:text="Cueca" />
+
+    <Button
+        android:id="@+id/btn_meias"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/meias"
+        android:text="Meias" />
+    
+    <Button
+        android:id="@+id/btn_tenis"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/tenis"
+        android:text="Tênis" />
+
+
+</com.unisul.activities.DashboardLayout>
+		<!--  Include Footer -->
+		<include layout="@layout/footer_layout"/>
+    	    
+</LinearLayout>

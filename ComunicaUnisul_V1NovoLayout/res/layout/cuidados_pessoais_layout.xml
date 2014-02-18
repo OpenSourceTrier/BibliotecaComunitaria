@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cuidados_pessoais_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    	<!-- Include Action Bar -->
+    	<include layout="@layout/actionbar_layout"/>
+    	
+    	<com.unisul.activities.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+	
+    <Button
+        android:id="@+id/btn_escovar_dentes"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/escovar_dentes"
+        android:text="Escovar Dentes" />
+    
+    <Button
+        android:id="@+id/btn_pentear_cabelo"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/pentear_cabelo"
+        android:text="Pentear Cabelo" />
+    
+     <Button
+        android:id="@+id/btn_tomar_banho"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/tomar_banho_default"
+        android:text="Tomar Banho" />
+    
+    <Button
+        android:id="@+id/btn_vestir_ou_trocar_de_roupa"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/vestir_ou_trocar_de_roupa_default"
+        android:text="Vestir ou Trocar de Roupa" />
+
+
+</com.unisul.activities.DashboardLayout>
+		
+		<!--  Include Footer -->
+		<include layout="@layout/footer_layout"/>
+    	    
+</LinearLayout>

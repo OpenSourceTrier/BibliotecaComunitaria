@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/brincar_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    	<!-- Include Action Bar -->
+    	<include layout="@layout/actionbar_layout"/>
+    	
+    	<com.unisul.activities.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+	
+    <Button
+        android:id="@+id/btn_bola"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/bola"
+        android:text="Bola" />
+    
+    <Button
+        android:id="@+id/btn_boneco"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/boneco"
+        android:text="Boneco" />
+    
+    <Button
+        android:id="@+id/btn_carrinho"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/carrinho"
+        android:text="Carrinho" />
+	
+    <Button
+        android:id="@+id/btn_videogame"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/videogame"
+        android:text="Videogame" />
+
+</com.unisul.activities.DashboardLayout>
+		
+		<!--  Include Footer -->
+		<include layout="@layout/footer_layout"/>
+    	    
+</LinearLayout>

@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/doces_sobremesas_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_layout" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_bolo_chocolate"
+                style="@style/PranchaButton"
+                android:background="@drawable/bolo_de_chocolate"
+                android:text="@string/bolo_chocolate" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_bombom"
+                style="@style/PranchaButton"
+                android:background="@drawable/bombom"
+                android:text="@string/bombom" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_gelatina"
+                style="@style/PranchaButton"
+                android:background="@drawable/gelatina"
+                android:text="@string/gelatina" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_pudim"
+                style="@style/PranchaButton"
+                android:background="@drawable/pudim"
+                android:text="@string/pudim" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_salada_frutas"
+                style="@style/PranchaButton"
+                android:background="@drawable/frutas"
+                android:text="@string/salada_frutas" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+        <Button
+        android:id="@+id/btn_sorvete"
+                style="@style/PranchaButton"
+                android:background="@drawable/sorvete"
+                android:text="@string/sorvete" />
+       
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <!-- Include Footer -->
+
+    <include layout="@layout/footer_layout" />
+
+</LinearLayout>

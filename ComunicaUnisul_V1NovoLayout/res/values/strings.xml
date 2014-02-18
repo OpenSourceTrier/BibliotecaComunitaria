@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidDashboardDesignActivity!</string>
+    <string name="app_name">Comunicação Alternativa Unisul</string>
+ 	<string name="ContextoDados_onCreate">
+		CREATE TABLE Menus (ID INTEGER PRIMARY KEY AUTOINCREMENT, Nome TEXT,	Descricao TEXT, Som TEXT);
+	</string>
+	<string name="ContextoDados_onUpgrade">"
+		DROP TABLE IF EXISTS Menu
+	</string>
+	
+	
+	
+	
+	
+	
+	<string name="eu_quero">Eu quero</string>
+    <string name="eu_estou">Eu estou</string>
+    <string name="diversao">Diversão</string>
+    <string name="cuidados_pessoais">Cuidados pessoais</string>
+    <string name="perguntas">Perguntas</string>
+    <string name="comer">Comer</string>
+    <string name="beber">Beber</string>
+    <string name="brincar">Brincar</string>
+    <string name="trocar_roupa">Vestir/Trocar roupa</string>
+    <string name="banho">Tomar banho</string>
+    <string name="dormir">Dormir</string>
+    <string name="pratos_prontos">Pratos prontos</string>
+    <string name="frutas">Frutas</string>
+    <string name="doces">Doces/Sobremesas</string>
+    <string name="montar_prato">Montar prato</string>
+    <string name="banana">Banana</string>
+    <string name="maca">Maçã</string>
+    <string name="laranja">Laranja</string>
+    <string name="ameixa">Ameixa</string>
+    <string name="uva">Uva</string>
+    <string name="kiwi">Kiwi</string>
+    <string name="bolo_chocolate">Bolo de chocolate</string>
+    <string name="bombom">Bombom</string>
+    <string name="gelatina">Gelatina</string>
+    <string name="pudim">Pudim</string>
+    <string name="salada_frutas">Salada de frutas</string>
+    <string name="sorvete">Sorvete</string>
+    <string name="arroz">Arroz</string>
+    <string name="feijao">Feijão</string>
+    <string name="bife">Bife</string>
+    <string name="carne_frango">Carne de Frango</string>
+    <string name="macarrao">Macarrão</string>
+    <string name="avancar">Avançar</string>
+
+    
+    
+    
+    <string name="agua">Água</string>
+    <string name="suco_uva">Uva</string>
+    <string name="suco_abacaxi">Abacaxi</string>
+    <string name="suco_laranja">Laranja</string>
+    
+    
+    
+        <string name="calca">Calça</string>
+    
+</resources>

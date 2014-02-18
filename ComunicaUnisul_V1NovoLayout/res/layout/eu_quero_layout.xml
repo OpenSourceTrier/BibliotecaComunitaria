@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_layout" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_comer"
+                style="@style/PranchaButton"
+                android:background="@drawable/comer_default"
+                android:text="@string/comer" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_beber"
+                style="@style/PranchaButton"
+                android:background="@drawable/beber_default"
+                android:text="@string/beber" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_brincar"
+                style="@style/PranchaButton"
+                android:background="@drawable/brincar_default"
+                android:text="@string/brincar" 
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_vestir_ou_trocar_de_roupa"
+                style="@style/PranchaButton"
+                android:background="@drawable/vestir_ou_trocar_de_roupa_default"
+                android:text="@string/trocar_roupa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_tomar_banho"
+                style="@style/PranchaButton"
+                android:background="@drawable/tomar_banho_default"
+                android:text="@string/banho" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+        <Button
+        android:id="@+id/btn_dormir"
+                style="@style/PranchaButton"
+                android:background="@drawable/dormir_default"
+                android:text="@string/dormir" />
+       
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <!-- Include Footer -->
+
+    <include layout="@layout/footer_layout" />
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frutas_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar_layout" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_banana"
+                style="@style/PranchaButton"
+                android:background="@drawable/banana_default"
+                android:text="@string/banana" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        		android:id="@+id/btn_maca"
+                style="@style/PranchaButton"
+                android:background="@drawable/maca_default"
+                android:text="@string/maca" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_laranja"
+                style="@style/PranchaButton"
+                android:background="@drawable/laranja"
+                android:text="@string/laranja" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_ameixa"
+                style="@style/PranchaButton"
+                android:background="@drawable/ameixa"
+                android:text="@string/ameixa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+        android:id="@+id/btn_uva"
+                style="@style/PranchaButton"
+                android:background="@drawable/uva_default"
+                android:text="@string/uva" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+        <Button
+        android:id="@+id/btn_kiwi"
+                style="@style/PranchaButton"
+                android:background="@drawable/kiwi"
+                android:text="@string/kiwi" />
+       
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <!-- Include Footer -->
+
+    <include layout="@layout/footer_layout" />
+
+</LinearLayout>

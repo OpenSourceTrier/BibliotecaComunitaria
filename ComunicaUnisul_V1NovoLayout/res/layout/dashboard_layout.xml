@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <!-- Include Action Bar -->
+
+    <include layout="@layout/actionbar_layout" />
+
+    <!-- Include Fragmented dashboard -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_eu_quero"
+                style="@style/PranchaButton"
+                android:background="@drawable/eu_quero_default"
+                android:text="@string/eu_quero" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_eu_estou"
+                style="@style/PranchaButton"
+                android:background="@drawable/eu_estou_default"
+                android:text="@string/eu_estou" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_diversao"
+                style="@style/PranchaButton"
+                android:background="@drawable/diversao_default"
+                android:text="@string/diversao" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_cuidados_pessoais"
+                style="@style/PranchaButton"
+                android:background="@drawable/cuidados_pessoais_default"
+                android:text="@string/cuidados_pessoais" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_perguntas"
+                style="@style/PranchaButton"
+                android:background="@drawable/perguntas_default"
+                android:text="@string/perguntas" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Include Footer -->
+
+    <include layout="@layout/footer_layout" />
+
+</LinearLayout>

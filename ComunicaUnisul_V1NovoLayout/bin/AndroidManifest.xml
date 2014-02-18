@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="androidhive.dashboard"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name="com.unisul.activities.MainActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- News Feed Activity -->
+        <activity android:name="com.unisul.activities.NewsFeedActivity" ></activity>
+                
+        <activity android:name="com.unisul.activities.AndroidDashboardDesignActivity" android:screenOrientation="landscape"></activity>
+        
+        <activity android:name="com.unisul.activities.EuQueroActivity" ></activity>
+                
+        <activity android:name="com.unisul.activities.TesteArrayActivity" ></activity>
+        <!-- Friends Activity -->
+        <activity android:name="com.unisul.activities.FriendsActivity" ></activity>
+        <!-- Messages Activity -->
+        <activity android:name="com.unisul.activities.MessagesActivity" ></activity>
+        <!-- Places Activity -->
+        <activity android:name="com.unisul.activities.PlacesActivity" ></activity>
+        <!-- Events Activity -->
+        <activity android:name="com.unisul.activities.EventsActivity" ></activity>        
+        <!-- Photos Activity -->
+        <activity android:name="com.unisul.activities.PhotosActivity" ></activity>
+        
+        <activity android:name="com.unisul.activities.ComerActivity" ></activity>
+        
+                <activity android:name="com.unisul.activities.FrutasActivity" ></activity>
+        
+       
+        <activity android:name="com.unisul.activities.EuEstouActivity" ></activity>
+        
+        <activity android:name="com.unisul.activities.MontarPratoActivity" ></activity>
+        
+        <activity android:name="com.unisul.activities.PratosProntosActivity" ></activity>
+        
+        <activity android:name="com.unisul.activities.DiversaoActivity" ></activity>
+        
+                <activity android:name="com.unisul.activities.DocesESobremesasActivity" ></activity>
+                        <activity android:name="com.unisul.activities.BeberActivity" ></activity>
+                 <activity android:name="com.unisul.activities.BrincarActivity" ></activity>
+                        
+          <activity android:name="com.unisul.activities.VestirOuTrocarDeRoupaActivity" ></activity>
+         <activity android:name="com.unisul.activities.CuidadosPessoaisActivity" ></activity>
+          
+        
+        
+    </application>
+
+</manifest>

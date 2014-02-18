@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    	<!-- Include Action Bar -->
+    	<include layout="@layout/actionbar_layout"/>
+    	
+    	<com.unisul.activities.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+	
+    <Button
+        android:id="@+id/btn_arroz"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/arroz_default"
+        android:text="Arroz" />
+    
+    <Button
+        android:id="@+id/btn_feijao"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/feijao_default"
+        android:text="Feijão" />
+    
+    <Button
+        android:id="@+id/btn_bife"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/bife_default"
+        android:text="Bife" />
+	
+    <Button
+        android:id="@+id/btn_coxa"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/coxa_default"
+        android:text="Coxa de Frango" />
+
+    <Button
+        android:id="@+id/btn_macarrao"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/macarrao_default"
+        android:text="Macarrão" />
+    
+    <Button
+        android:id="@+id/btn_avancar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/avancar"
+        android:text="Avançar" />
+
+
+</com.unisul.activities.DashboardLayout>
+		
+		<!--  Include Footer -->
+		<include layout="@layout/footer_layout"/>
+    	    
+</LinearLayout>

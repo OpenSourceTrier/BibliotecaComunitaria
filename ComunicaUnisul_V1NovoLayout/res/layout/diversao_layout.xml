@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pratos_prontos_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    	<!-- Include Action Bar -->
+    	<include layout="@layout/actionbar_layout"/>
+    	
+    	<com.unisul.activities.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+	
+    <Button
+        android:id="@+id/btn_tv"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/tv"
+        android:text="Ver Televisão" />
+    
+    <Button
+        android:id="@+id/btn_computador"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/computador"
+        android:text="Usar Computador" />
+    
+     <Button
+        android:id="@+id/btn_ler"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ler"
+        android:text="Leitura" />
+    
+    <Button
+        android:id="@+id/btn_ouvir_musica"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/ouvir_musica"
+        android:text="Ouvir Musica" />
+	
+    <Button
+        android:id="@+id/btn_brincar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/brincar_default"
+        android:text="Brincar" />
+    
+    <Button
+        android:id="@+id/btn_passear"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/passear"
+        android:text="Passear" />
+
+
+</com.unisul.activities.DashboardLayout>
+		
+		<!--  Include Footer -->
+		<include layout="@layout/footer_layout"/>
+    	    
+</LinearLayout>

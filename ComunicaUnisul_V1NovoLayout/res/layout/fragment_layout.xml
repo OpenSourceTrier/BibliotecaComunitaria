@@ -1,0 +1,49 @@
+<com.unisul.activities.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+	<!--  Eu quero Button -->
+	
+    <Button
+        android:id="@+id/btn_eu_quero"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_eu_quero"
+        android:text="Eu quero" />
+    
+	<!--  Eu estou Button -->
+    <Button
+        android:id="@+id/btn_eu_estou"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_eu_estou"
+        android:text="Eu estou" />
+    
+	<!--  Diversão Button -->
+    <Button
+        android:id="@+id/btn_diversao"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_diversao"
+        android:text="Diversão" />
+	
+    <!--  Cuidados Pessoais Button -->
+    <Button
+        android:id="@+id/btn_cuidados_pessoais"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_cuidados_pessoais"
+        android:text="Cuidados Pessoais" />
+
+    <!--  Perguntas Button -->
+    <Button
+        android:id="@+id/btn_perguntas"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_perguntas"
+        android:text="Perguntas" />
+    
+    <Button
+        android:id="@+id/btn_nada"
+        style="@style/DashboardButton"
+         />
+
+
+</com.unisul.activities.DashboardLayout>

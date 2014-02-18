@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    	<!-- Include Action Bar -->
+    	<include layout="@layout/actionbar_layout"/>
+    	
+    	<com.unisul.activities.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+	
+    <Button
+        android:id="@+id/btn_bravo"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/bravo"
+        android:text="Bravo" />
+    
+    <Button
+        android:id="@+id/btn_cansado"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/cansado"
+        android:text="Cansado" />
+    
+    <Button
+        android:id="@+id/btn_feliz"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/feliz"
+        android:text="Feliz" />
+	
+    <Button
+        android:id="@+id/btn_sono"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/sono"
+        android:text="Sono" />
+
+    
+    <Button
+        android:id="@+id/btn_triste"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/triste"
+        android:text="Triste" />
+    
+     <Button
+        android:id="@+id/btn_avancar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/avancar"
+        android:text="Avançar" />
+
+
+</com.unisul.activities.DashboardLayout>
+		
+		<!--  Include Footer -->
+		<include layout="@layout/footer_layout"/>
+    	    
+</LinearLayout>
